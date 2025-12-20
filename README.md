@@ -1,4 +1,4 @@
-> This Document is partially made by AI, if you find any issues, please fit it.
+> This Document is partially made by AI, if you find any issues, please fix it.
 
 # Blob - AI-Powered Study Tool
 
