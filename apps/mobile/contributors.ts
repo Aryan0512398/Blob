@@ -57,7 +57,7 @@ export const CONTRIBUTORS: Contributor[] = [
   {
     name: 'Rushal Verma',
     github: 'Rushalverma',
-  }
+  },
   {
     name: 'Satwik Santosh',
     github: 'DeadlySatwik',
@@ -65,9 +65,13 @@ export const CONTRIBUTORS: Contributor[] = [
   {
     name: 'Lakshmish S G',
     github: 'Coldesy',
-  }
+  },
   {
     name: 'BEESA MANISH',
     github: 'MANISH-BEESA',
+  },
+  {
+    name: 'Apoorv Mittal',
+    github: 'Apoorv012',
   }
 ];
