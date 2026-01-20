@@ -3,8 +3,17 @@ import { router, publicProcedure } from "../server.js";
 import { users } from "@blob/db/schema";
 import { generateRouter } from "./generate.js";
 
-// example test router
+// Import modular routers
+import { authRouter } from "./auth.js";
+import { topicsRouter } from "./topics.js";
+import { flashcardsRouter } from "./flashcards.js";
+import { quizzesRouter } from "./quizzes.js";
+import { mindMapsRouter } from "./mindmaps.js";
+import { settingsRouter } from "./settings.js";
+import { generateRouter } from "./generate.js";
+
 export const appRouter = router({
+  // Public utility routes
   hello: publicProcedure
     .input(z.object({ name: z.string().optional() }))
     .query(({ input }) => {
@@ -35,3 +44,14 @@ export const appRouter = router({
 });
 
 export type AppRouter = typeof appRouter;
+
+// Re-export individual routers for direct access if needed
+export {
+  authRouter,
+  topicsRouter,
+  flashcardsRouter,
+  quizzesRouter,
+  mindMapsRouter,
+  settingsRouter,
+  generateRouter,
+};

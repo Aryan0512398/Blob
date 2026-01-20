@@ -1,11 +1,15 @@
+
 type Contributor = {
   name: string;
   github: string;
   twitter?: string | undefined;
   website?: string | undefined;
 };
-
 export const CONTRIBUTORS: Contributor[] = [
+  {
+    name: 'Rudra Mina',
+    github: 'rudraminaa',
+  },
   {
     name: 'Pranshu Sethi',
     github: 'iampranshusethi',
@@ -83,19 +87,86 @@ export const CONTRIBUTORS: Contributor[] = [
     github: '29kamakshigupta',
   },
   {
-    name:'Ronak Vegad',
-    github:'Ronak-vegad',
+    name: 'Ronak Vegad',
+    github: 'Ronak-vegad',
   },
   {
-    name:'Yuvaraj Ragothaman',
-    github:'LevelSilence',
+    name: 'Yuvaraj Ragothaman',
+    github: 'LevelSilence',
   },
   {
-    name:'Aiyaan Mahajan',
-    github:'Aiyaan-Mahajan',
+    name: 'Aiyaan Mahajan',
+    github: 'Aiyaan-Mahajan',
   },
   {
     name: 'Aryan Gupta',
     github: 'Aryan0512398',
-  }
+  },
+  {
+    name:'Sanjay Rohith L',
+    github:'sanjayrohith',
+  },
+  {
+    name:'Chithra R',
+    github: 'Chithra582',
+  },
+  {
+    name:'Soham Agarwal',
+    github: 'SohamSDA',
+  },
+  {
+    name: 'Ishant Yadav',
+    github: 'Ishant89op'
+  },
+  {
+    name: 'Lavay Garg',
+    github: 'lavaygarg'
+  },
+  {
+    name: 'Chauhan Devan',
+    github: 'Devan019'
+  },{
+    name: 'Aaryan Degama',
+    github: 'Aaryan-Degama'
+  },
+  {
+  name: "Dharshini D",
+  github: 'Dharshin1',
+  },
+  {
+  name: "Sourish Awasthi",
+  github: 'LooninS',
+  },
+  {
+  name: 'Khushi Shorey',
+  github: 'khuhshishorey'
+  },
+  {
+  name: 'Himansh Arora',
+  github: 'Humanshere'
+  },
+  {
+  name: 'prashant kumar dwivedi',
+  github: 'dwivediprashant'
+  },
+  {
+    name:"Tejinderpal Singh",
+    github:'Tejinder105',
+  },
+  {
+    name:"Sujal Kshatri",
+    github:'suzzzal',
+  },
+  { 
+    name:"Yogesh M",
+    github: "yogesh4216",
+  },
+  { 
+    name:"Devanshu Chotiya",
+    github: "devanshuwebd",
+  },
+  {
+    name:"Aakriti Singh",
+    github:"AakritiSingh05",
+  },
 ];
